@@ -1,0 +1,392 @@
+*
+{
+    font-family: Inter;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------------------CSS AVISO------------------------------------------*/
+
+.page-header
+{
+    background-color: rgb( 0, 64, 96, 100%);
+    display: flex;
+    padding-inline: 32px;
+    padding-block: 16px;
+    justify-content: space-between;
+    border-top: solid black 1px;
+}
+.header-item
+{
+    width: 45%;
+}
+.tittle
+{
+    color: rgb(227, 172, 41);
+    font-weight: 800;
+}
+.text
+{
+    color: white;
+    font-weight: 400;
+}
+@media (max-width:426px)
+{
+.page-header
+{
+    display: flex;
+    flex-direction: column;
+}
+.header-item
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tittle
+{
+    margin: 0;
+}
+.text
+{
+    margin: 0;
+}
+}
+
+/*------------------------------------------------CSS AVISO------------------------------------------*/
+
+/*------------------------------------------------CSS CIRLEI------------------------------------------*/
+.cirlei-img-content
+{
+    width: 500px;
+    height: 333px;
+    border-radius: 10px;
+    border: solid rgb( 0, 64, 96, 100%) 5px;
+}
+.cirlei-space
+{
+    padding-block: 32px;
+    padding-inline: 16px;
+}
+.cirlei-block
+{
+    background-color: #F0F0F0;
+    padding-block: 32px;
+    padding-inline: 16px;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.content-space-upper
+{
+    display: flex;
+    gap: 2vw;
+}
+.content-space-down
+{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+.text-after-img
+{
+    flex-direction: column;
+    display: flex;
+}
+.text-after-img h1
+{
+    color: rgb(227, 172, 41);
+    font-weight: 900;
+    font-size: calc(8px + 4vw);
+    padding-block: 1vw;
+    margin: 0;
+}
+.text-after-img p
+{
+    text-indent: 1vw;
+    text-align: justify;
+    font-weight: 500;
+    font-size: calc(8px + 1.4vw);
+    margin: 0;
+}
+.content-space-down p
+{
+    text-indent: 1vw;
+    font-weight: 500;
+    font-size: calc(8px + 1.4vw);
+    margin: 0;
+}
+.saiba-mais-content
+{
+    padding-block: 1rem ;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.saiba-mais-content p
+{
+    color: rgb(227, 172, 41);
+    font-size: calc(8px + 1.0vw);
+    font-weight: 900;
+    padding-block: 8px;
+    margin: 0;
+}
+.saiba-mais-content a
+{
+    background-color: #017434;
+    padding-block: 8px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+}
+@media (max-width:1271px)
+{
+.content-space-upper
+{
+    flex-direction: column;
+    align-items: center;
+}
+.text-after-img h1
+{
+    text-align: center;
+}
+}
+@media (max-width:950px)
+{
+.text-after-img h1
+{
+    text-align: center;
+}
+.cirlei-img-content
+{
+    width: 50%;
+    height: 50%;
+}
+}
+/*------------------------------------------------CSS CIRLEI------------------------------------------*/
+
+/*------------------------------------------------CSS SLIDER------------------------------------------*/
+.slider-contain
+{
+    background-color: rgb( 0, 64, 96, 100%);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.slider-contain h1
+{
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(227, 172, 41);
+}
+.slider-space
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.slider-imgs
+{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3 rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+.slider-imgs img
+{   
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav
+{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a
+{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+/*------------------------------------------------CSS SLIDER------------------------------------------*/
+
+/*------------------------------------------------CSS QUALITY------------------------------------------*/
+.quality-contain
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+.content-upper-quality
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.quality-text
+{
+    width: 50%;
+}
+.quality-text p
+{
+    font-size: calc(16px + 1.0vw);
+    font-weight: 600;
+    display: inline;
+    color:  black;
+}
+#text-yellow
+{
+    color: rgb(227, 172, 41);
+}
+.quality-img
+{
+    width: 600px;
+    height: 400px;
+}
+.content-down-quality
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.quality-milk
+{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.quality-cheese
+{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.text-down-quality
+{
+    font-size: calc(16px + 1.0vw);
+    color: rgb(227, 172, 41);
+    font-weight: 600;
+    margin: 0;
+}
+@media (max-width:950px)
+{
+.quality-contain
+{
+    gap: 2rem;
+}
+.content-upper-quality
+{
+    flex-direction: column;
+}
+.quality-img
+{
+    width: 90vw;
+    height: 60vw;
+}
+.quality-text
+{
+    width: 100%;
+}
+}
+@media (max-width:426px)
+{
+.content-down-quality
+{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+}
+/*------------------------------------------------CSS QUALITY------------------------------------------*/
+
+/*------------------------------------------------CSS ANIMAIS------------------------------------------*/
+.animals-contain
+{
+    background-color:#F0F0F0;
+    flex-direction: column;
+    display: flex;
+    margin-block: 2rem;
+    margin-inline: 1rem;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+}
+.title-animals
+{
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(227, 172, 41);
+}
+.content-animals
+{ 
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+}
+.content-animals p
+{
+    text-indent: 1vw;
+    font-size: calc(8px + 1.4vw);
+    margin: 0;
+    margin-block: 8px;
+    font-weight: 500;
+}
+.content-upper-animals
+{
+    display: flex;
+    gap: 8px;
+}
+.text-content-upper
+{
+    flex-direction: column;
+    display: flex;
+}
+.cow-img
+{
+    width: 600px;
+    height: 400px;
+    border: solid rgb( 0, 64, 96, 100%) 5px;
+    border-radius: 5px;
+}
+@media (max-width:1271px)
+{
+.content-upper-animals
+{
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media (max-width:769px)
+{
+.cow-img
+{
+    width: 78.13vw;
+    height: 52.08vw;
+}   
+}
+/*------------------------------------------------CSS ANIMAIS------------------------------------------*/

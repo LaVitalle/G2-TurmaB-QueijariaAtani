@@ -1,0 +1,73 @@
+    <div class="header-nav">
+    <nav class="navBar">
+
+        <img class="logo-atani-img-nav" src="img/LOGO-ÁTANI.png">
+
+        <ul class="ul-nav">
+            <li class="li-nav" id="active"><a class="a-nav" href="#">Iníci­o</a></li>
+            <li class="li-nav"><a class="a-nav" href="Sobre.Html">Sobre Nós</a></li>
+            <li class="li-nav"><a class="a-nav" href="Produtos.html">Produtos</a></li>
+            <li class="li-nav"><a class="a-nav" href="Parceiros.html">Parceiros</a></li>
+            <li class="li-nav"><a class="a-nav" href="Eventos.html">Eventos</a></li>
+            <li class="li-nav"><a class="a-nav" href="Contato.html">Contato</a></li>
+        </ul>
+
+        <div class="icon-contain">
+            <a href="https://www.facebook.com" target="_blank"><img class="icons-nav" src="img/icon-facebook.svg"></a>
+            <a href="https://www.instagram.com" target="_blank"><img class="icons-nav" src="img/icon-instagram.svg"></a>
+        </div>
+
+    </nav>
+    </div>
+
+------------------------------------------------------------------------------------------------------------------------
+
+    <footer class="footer-padrao">
+    
+        <div class="container-bloco-footer">
+            <div class="infos-block">
+                <h4>Horários de funcionamento</h4>
+                <p>Segunda a sexta: 09:00 às 18:30</p>
+                <p>Sábado: 09:00 às 18:00</p>
+            </div>
+            <div class="infos-block">
+                <h4>Endereço</h4>
+                <p>Vila Nova Linha - Três Irmãos</p>
+                <p>Toledo - PR, 85926-000</p>
+                <a href="https://maps.app.goo.gl/fYKJAbadn3Eu9Ai2A" target="_blank"><img class="map-img-footer" src="img\map.png"></a>
+            </div>
+        </div>
+
+        <img class="logo-atani-img-footer" src="img/LOGO-ÁTANI.png">
+
+        <div class="container-bloco-footer">
+
+            <div class="infos-block">
+                <h4>Contatos</h4>
+
+                    <div class="email-container">
+                        <a class="a-contato" href="https://www.gmail.com" target="_blank"><img class="contato-icon" src="img\icon-email.svg">cirleirossi@gmail.com</a>
+                    </div>
+
+                    <div class="whatsapp-container">
+                        <a class="a-contato" href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"><img class="contato-icon" src="img\icon-phone.svg">(45) 99832-8886</a>
+                    </div>    
+
+            </div>
+
+            <div class="infos-block">
+                <h4>Nossas redes</h4>
+
+                    <div class="email-container">
+                        <a class="a-contato" href="https://www.facebook.com" target="_blank"><img class="contato-icon" src="img\icon-facebook.svg">Facebook</a>
+                    </div>
+
+                    <div class="whatsapp-container">
+                        <a class="a-contato" href="https://www.instagram.com" target="_blank"><img class="contato-icon" src="img\icon-instagram.svg">Instagram</a>
+                    </div>  
+
+            </div>
+
+        </div>
+
+    </footer>
