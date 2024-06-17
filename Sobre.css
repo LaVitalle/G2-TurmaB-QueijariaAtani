@@ -30,11 +30,20 @@ main{
     border-radius: 10px;
 }
 
+.Center{
+    padding-top: 145px;
+}
+
 .Adjust{
     display: flex;
     align-self: flex-start;
+    flex-direction: row;
 }
 
+.ImgAdjust{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
