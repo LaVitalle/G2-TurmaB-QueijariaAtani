@@ -139,4 +139,20 @@ body
     font-weight: 800;
     color: white;
 }
+@media(max-width:1025px)
+{
+.content-upper
+{
+    flex-direction: column;
+    align-items: center;
+}
+.text-tittle
+{
+    text-align: center;
+}
+.text-contain :first-child
+{
+    margin: 0;
+}
+}
 /*------------------------------------------------CSS P1------------------------------------------*/
