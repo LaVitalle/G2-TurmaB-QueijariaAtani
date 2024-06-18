@@ -7,3 +7,60 @@ body
     margin: 0;
     padding: 0;
 }
+/*------------------------------------------------CSS P1------------------------------------------*/
+
+.product-1
+{
+    background-color: #004060;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.img-product
+{
+    width: 500px;
+    height: 375px;
+    border-radius: 10px;
+}
+.text-container
+{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.content-upper
+{
+    display: flex;
+    gap: 2rem;
+}
+.text-tittle p
+{
+    color: #017434;
+    margin: 0;
+    font-weight: 900;
+}
+.text-tittle h1
+{
+    color: #E3AC29;
+    margin: 0;
+    font-weight: 900;
+    font-size: calc(20px + 1.4vw);
+}
+.text-contain
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.text-contain p
+{
+    color: white;
+    margin: 0;
+    font-size: calc(6px + 1.4vw);
+    text-align: justify;
+}   
+.text-contain :first-child
+{
+    margin-top: 2rem;
+}
+/*------------------------------------------------CSS P1------------------------------------------*/
