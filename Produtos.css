@@ -15,11 +15,14 @@ body
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .img-product
 {
-    width: 500px;
-    height: 375px;
+    width: 37.91vw;
+    height: 28.43vw;
     border-radius: 10px;
 }
 .text-container
@@ -62,5 +65,78 @@ body
 .text-contain :first-child
 {
     margin-top: 2rem;
+}
+.droper-infos
+{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+.product-1-summary
+{
+    font-size:calc(8px + 1.4vw);
+    font-weight: 800;
+    color: #E3AC29;
+    cursor: pointer;
+}
+.product-1-details p
+{
+    font-size: calc(2px + 1.4vw);
+    text-align: justify;
+    color: white;
+    margin-top: 1rem;
+}
+.product-details
+{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+.product-1-details-deta p
+{
+    font-size: calc(2px + 1.4vw);
+    text-align: justify;
+    color: white;
+}
+.icon-carac
+{
+    width: 28px;
+    height: 28px;
+}
+.item-list-carac
+{
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+.item-list-carac p
+{
+    margin: 0px;
+}
+.find-us-contain
+{
+    padding-block: 1rem ;
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.find-us-contain p
+{
+    color: rgb(227, 172, 41);
+    font-size: calc(8px + 1.0vw);
+    font-weight: 900;
+    padding-block: 8px;
+    margin: 0;
+}
+.find-us-contain a
+{
+    background-color: #017434;
+    padding-block: 8px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
 }
 /*------------------------------------------------CSS P1------------------------------------------*/
