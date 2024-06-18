@@ -21,9 +21,26 @@ main{
     padding-top: 100px;
 }
 
+.Yellow2{
+    color: #E3AC29;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
 .Text{
     color: black;
     font-style: italic;
+    font-size: 23px;
+    text-align: center;
+}
+
+.Text2{
+    color: black;
+    font-style: italic;
+    font-size: 27px;
+    text-align: center;
 }
 
 .Border{
@@ -31,40 +48,63 @@ main{
 }
 
 .Center{
-    padding-top: 145px;
+    max-width: 530px;
+    max-height: 390px;
+    align-items: start;
+    padding-top: 75px;
+}
+
+.Center2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 200px;
 }
 
 .Adjust{
     display: flex;
-    align-self: flex-start;
     flex-direction: row;
+    align-self: center;
+    column-gap: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
-.ImgAdjust{
+.Adjust2{
     display: flex;
     flex-direction: row;
+    align-self: center;
+    column-gap: 265px;
+    padding-top: 125px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
-
-
-
-
-
-
-
-.Display{
-    margin: 60px;
-    margin-top: 200px;
+.Adjust3{
     display: flex;
-    justify-content: left;
-    display: grid;
-    max-width: 100%;
-    gap: 10px;
-    grid-template: "img01" 50px /800px;
+    flex-direction: row;
+    align-self: center;
+    column-gap: 265px;
+    padding-top: 140px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
-.Position{
+.Adjust4{
     display: flex;
-    align-items: flex-end;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    row-gap: 140px;
+    padding-left: 400x;
+    padding-right: 400px;
+}
+
+.img3{
+    padding-top: 185px;
+}
+
+.img12{
+    padding-top: 70px;
 }
