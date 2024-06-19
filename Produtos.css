@@ -38,7 +38,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    padding: 1rem;
     max-width: 175px;
     max-height: 100%;
 }
@@ -52,13 +52,14 @@ body
     border-bottom-right-radius: 10px;
     padding-inline: 1rem;
     padding-block: 1rem;
+    max-width: 175px;
     margin: 0;
 }
 .img-produto
 {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 100%;
+    width: 175px;
     height: 150px;
 }
 /*------------------------------------------------CSS List product------------------------------------------*/
@@ -75,11 +76,17 @@ body
     flex-direction: column;
     gap: 1rem;
 }
+.nonna
+{
+    width: 37.91vw;
+    height: 28.43vw;
+}
 .img-product
 {
     width: 37.91vw;
     height: 28.43vw;
     border-radius: 10px;
+    object-fit: fill;
 }
 .text-container
 {
@@ -118,10 +125,6 @@ body
     font-size: calc(6px + 1.4vw);
     text-align: justify;
 }   
-.text-contain :first-child
-{
-    margin-top: 2rem;
-}
 .droper-infos
 {
     flex-direction: column;
@@ -200,6 +203,7 @@ body
 .content-upper
 {
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 .text-tittle
@@ -215,4 +219,5 @@ body
     flex-wrap:wrap;
 }
 }
+
 /*------------------------------------------------CSS P1------------------------------------------*/
