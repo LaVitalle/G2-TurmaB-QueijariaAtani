@@ -1,11 +1,11 @@
     <div class="header-nav">
     <nav class="navBar">
 
-        <img class="logo-atani-img-nav" src="img/LOGO-ÁTANI.png">
+        <img class="logo-atani-img-nav" src="img/LOGO-ÃTANI.png">
 
         <ul class="ul-nav">
-            <li class="li-nav" id="active"><a class="a-nav" href="#">Iníci­o</a></li>
-            <li class="li-nav"><a class="a-nav" href="Sobre.Html">Sobre Nós</a></li>
+            <li class="li-nav" id="active"><a class="a-nav" href="#">InÃ­ciÂ­o</a></li>
+            <li class="li-nav"><a class="a-nav" href="Sobre.Html">Sobre NÃ³s</a></li>
             <li class="li-nav"><a class="a-nav" href="Produtos.html">Produtos</a></li>
             <li class="li-nav"><a class="a-nav" href="Parceiros.html">Parceiros</a></li>
             <li class="li-nav"><a class="a-nav" href="Eventos.html">Eventos</a></li>
@@ -26,19 +26,19 @@
     
         <div class="container-bloco-footer">
             <div class="infos-block">
-                <h4>Horários de funcionamento</h4>
-                <p>Segunda a sexta: 09:00 às 18:30</p>
-                <p>Sábado: 09:00 às 18:00</p>
+                <h4>HorÃ¡rios de funcionamento</h4>
+                <p>Segunda a sexta: 09:00 Ã s 18:30</p>
+                <p>SÃ¡bado: 09:00 Ã s 18:00</p>
             </div>
             <div class="infos-block">
-                <h4>Endereço</h4>
-                <p>Vila Nova Linha - Três Irmãos</p>
+                <h4>EndereÃ§o</h4>
+                <p>Vila Nova Linha - TrÃªs IrmÃ£os</p>
                 <p>Toledo - PR, 85926-000</p>
                 <a href="https://maps.app.goo.gl/fYKJAbadn3Eu9Ai2A" target="_blank"><img class="map-img-footer" src="img\map.png"></a>
             </div>
         </div>
 
-        <img class="logo-atani-img-footer" src="img/LOGO-ÁTANI.png">
+        <img class="logo-atani-img-footer" src="img/LOGO-ÃTANI.png">
 
         <div class="container-bloco-footer">
 
