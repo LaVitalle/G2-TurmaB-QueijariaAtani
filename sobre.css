@@ -7,104 +7,149 @@ body{
 
 main{
     background-color: #F0F0F0;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 25px;
+    margin-inline: 5px;
+    margin-block: 25px;
     border-radius: 20px;
-}
-
-.Yellow{
-    color: #E3AC29;
-    font-size: 50px;
+    padding-block: 1rem;
+    align-items: center;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
+    gap: 5vw;
 }
-
-.Yellow2{
+/*--------------PQ ATANI-------------------*/
+.tittle
+{
     color: #E3AC29;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-}
-
-.Text{
-    color: black;
-    font-style: italic;
-    font-size: 23px;
+    font-size: calc(30px + 1.5vw);
     text-align: center;
 }
-
-.Text2{
-    color: black;
-    font-style: italic;
-    font-size: 27px;
-    text-align: center;
-}
-
-.Border{
-    border-radius: 10px;
-}
-
-.Center{
-    max-width: 530px;
-    max-height: 390px;
-    align-items: start;
-    padding-top: 75px;
-}
-
-.Center2{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding-top: 200px;
-}
-
-.Adjust{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    column-gap: 100px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.Adjust2{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    column-gap: 265px;
-    padding-top: 125px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.Adjust3{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    column-gap: 265px;
-    padding-top: 140px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.Adjust4{
+.content-contain
+{
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
+}
+.container
+{
+    padding: 1rem;
+    max-width: 1100px;
+    display: flex;
+    gap: 2rem;
+}
+.text-center
+{
+    display: flex;
     justify-content: center;
-    row-gap: 140px;
-    padding-left: 400x;
-    padding-right: 400px;
+    align-items: center;
+    width: 50%;
+    font-weight: 500;
+    font-style: italic;
+    text-align: justify;
+    font-size: calc(8px + 1.2vw);
+}
+.img-1-atani
+{
+    border-radius: 10px;
+    width: 50%;
+}
+@media (max-width: 769px)
+{
+.container
+{
+    align-items: center;
+    flex-direction: column;
+}
+.text-center
+{
+    width: 100%;
+}
+.img-1-atani
+{
+    width: 69.01vw;
+    height: 50.78vw;
+} 
+.container-last-infos
+{
+    flex-direction: column;
+}   
+/*--------------PQ ATANI-------------------*/
+
+/*--------------COMO ATANI-------------------*/
+}
+.container-hwstr
+{
+    margin: 2rem;
+}
+.text-hwstr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-style: italic;
+    text-align: justify;
+    font-size: calc(8px + 1.2vw);
+}
+/*--------------COMO ATANI-------------------*/
+
+.Adjust
+{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.last-imgs
+{
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+.img-4-4
+{
+    border-radius: 10px;
+    max-width: 440px;
+    max-width: 460px;
+    width: calc(100% - 1vw);
+}
+.img-obj-fit1
+{
+    width: calc(100% - 1vw);
+    border-radius: 10px;
+    max-width: 445px; 
+    max-height: 620px;
+}
+.img-obj-fit2
+{
+    width: calc(100% - 1vw);
+    border-radius: 10px;
+    max-width: 450px; 
+    max-height: 280px;
+}
+.img-obj-fit3
+{
+    width: calc(100% - 1vw);
+    border-radius: 10px;
+    max-width: 540px; 
+    max-height: 380px;
 }
 
-.img3{
-    padding-top: 185px;
+.container-last-infos
+{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    max-width: 1100px;
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
 }
-
-.img12{
-    padding-top: 70px;
+.Border
+{
+    border-radius: 10px;
+    width: 45.49vw;
+    height: 26.54vw;
 }
