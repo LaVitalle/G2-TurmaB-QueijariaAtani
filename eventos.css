@@ -1,0 +1,85 @@
+*
+{
+    font-family: Inter;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.event-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.event-card {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event-card img {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.event-card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-card p {
+    font-size: 16px;
+    color: #333;
+}
+
+.event-card a {
+    color: #004060;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.event-card a:hover {
+    text-decoration: underline;
+}
+
+.event-card.reverse {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 800px) {
+    .event-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .event-card.reverse {
+        flex-direction: column;
+    }
+    .event-card img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .event-section {
+        padding: 10px;
+    }
+    .event-card {
+        padding: 10px;
+    }
+}
